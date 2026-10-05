@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Scraper output
+linkedin_jobs_*.csv
+linkedin_jobs_*.html
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
