@@ -27,9 +27,6 @@ ROUNDS = [
     {"keywords": ["C++"], "easy_apply": "exclude"},
     {"keywords": ["C++"], "easy_apply": "only"},
     {"keywords": ["Compiler"], "easy_apply": "both", "quote": True},
-    {"keywords": ["Rust"], "easy_apply": "both"},
-    {"keywords": ["Embedded"], "easy_apply": "both", "quote": True},
-    {"keywords": ["Firmware"], "easy_apply": "both", "quote": True},
 ]
 
 JOB_LOCATION = "United States"        # e.g. "Remote", "United States", "Toronto, Canada"
