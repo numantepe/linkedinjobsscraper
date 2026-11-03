@@ -35,14 +35,14 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python linkedinscraper.py
+python linkedinjobsscraper.py
 ```
 
 When Chrome opens, log in to LinkedIn, go back to the terminal and press **Enter**. Progress is printed for every page, and Chrome closes when all rounds are done.
 
 ## Configuration
 
-Edit the `CONFIG` section at the top of `linkedinscraper.py`:
+Edit the `CONFIG` section at the top of `linkedinjobsscraper.py`:
 
 | Setting | Description |
 |---|---|
