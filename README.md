@@ -1,4 +1,4 @@
-# LinkedIn Job Scraper
+# LinkedIn Jobs Scraper
 
 > **Note:** This code was written by [Claude](https://claude.com/claude-code) (Anthropic's AI assistant) via Claude Code.
 
