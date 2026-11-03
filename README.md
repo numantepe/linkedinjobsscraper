@@ -29,20 +29,20 @@ A Selenium + BeautifulSoup script that searches LinkedIn Jobs with your filters 
 ```bash
 python -m venv venv
 source venv/bin/activate          # Windows: venv\Scripts\activate
-pip install -r "requirements (1).txt"
+pip install -r requirements.txt
 ```
 
 ## Usage
 
 ```bash
-python LinkedinJobsScraperAdvance.py
+python linkedinscraper.py
 ```
 
 When Chrome opens, log in to LinkedIn, go back to the terminal and press **Enter**. Progress is printed for every page, and Chrome closes when all rounds are done.
 
 ## Configuration
 
-Edit the `CONFIG` section at the top of `LinkedinJobsScraperAdvance.py`:
+Edit the `CONFIG` section at the top of `linkedinscraper.py`:
 
 | Setting | Description |
 |---|---|
@@ -72,7 +72,7 @@ linkedin_jobs_<keyword>_<location>_<exp-levels>_<date>[_EasyApplyOnly|_AllApply]
 linkedin_jobs_<keyword>_<location>_<exp-levels>_<date>[_EasyApplyOnly|_AllApply].html
 ```
 
-For example: `linkedin_jobs_Rust_United_States_2_3_4_24h_AllApply.csv`
+For example: `linkedin_jobs_Compiler_United_States_2_3_4_24h_AllApply.csv`
 
 ## Caveats
 
